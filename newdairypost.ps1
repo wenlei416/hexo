@@ -1,6 +1,9 @@
-$cancelTimes=4+1;
+$cancelTimes=4+1+3+2;
+# n天和一个文档，加n-1
 # 2016-12-12~16都没写
 # 2016-12-19~20合并在一起了
+# 2016-12-26~29合并在一起了
+# 2017-01-04~06合并在一起了
 $tdiary=[System.IO.Directory]::GetFiles("d:\hexo\source\_posts","t???-diary.md").count+1+$cancelTimes
 
 $newdiarycount=$tdiary
